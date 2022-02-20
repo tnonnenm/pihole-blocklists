@@ -1,0 +1,13 @@
+# /----------- minute (0 - 59)
+# | +--------- hour (0 - 23)
+# | | +------- day of the month (1 - 31)
+# | | | +----- month (1 - 12)
+# | | | | +--- day of the week (0 - 6 / 7)
+# | | | | |
+# * * * * *
+
+0 17 * * * bash -lc /home/pi/distractions-unblock.sh
+0 19 * * * bash -lc /home/pi/distractions-block.sh
+0 10 * * 6 bash -lc /home/pi/distractions-unblock.sh
+0 10 * * 0 bash -lc /home/pi/distractions-unblock.sh
+
