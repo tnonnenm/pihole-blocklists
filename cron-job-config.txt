@@ -6,8 +6,15 @@
 # | | | | |
 # * * * * *
 
+<<<<<<< Updated upstream
 0 17 * * * bash -lc /home/pi/distractions-unblock.sh
 0 19 * * * bash -lc /home/pi/distractions-block.sh
 0 10 * * 6 bash -lc /home/pi/distractions-unblock.sh
 0 10 * * 0 bash -lc /home/pi/distractions-unblock.sh
+=======
+0 17 * * * /home/pi/distractions-unblock.sh
+0 19 * * * /home/pi/distractions-block.sh
+0 10 * * 6 /home/pi/distractions-unblock.sh
+0 10 * * 0 /home/pi/distractions-unblock.sh
+>>>>>>> Stashed changes
 
